@@ -1,0 +1,9 @@
+---
+applications:
+  - name: test-spring-boot
+    memory: 256M
+    instances: 1
+    random-route: true
+    host: khatwa1
+    buildpacks : 
+      - sap_java_buildpack_1_25
